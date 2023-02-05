@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,500&family=Raleway:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 73px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > h1{
+    letter-spacing: 0px;
+    font: normal normal medium 50px/59px 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.iguana_fondo{
+    width: 100%;
+    height: 727px;
+    background-image: url(../imgs/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.info_iguana {
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:106px;
+    color: #FFFFFF;
+}
+
+.info_iguana >p {
+    width: 475px;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+
+}
+.info_iguana >img{
+    width: 399px;
+    height: 237px;
+}
+
+.caracteristicas {
+    width:100%;
+    height: 348px;
+    background-color: #1E1A13;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 50px;
+}
+
+.caracteristicas  > h2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-icon {
+    text-align: center;
+}
+
+.box-icon > i{
+    margin-bottom: 30px;
+}
+
+.seccion_iguanas {
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 16px;
+}
+.seccion_iguanas > img{
+    width:316px;
+    height: 202px;
+}
+
+footer{
+    width:100%;
+    height: 102px;
+    background-color: #1E1A13;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
